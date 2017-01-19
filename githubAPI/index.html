@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles/app.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app" id="app">
+        <div class="top">
+            <input type="text" id="input" placeholder="Enter Your Request"/>
+            <button type="submit" id="button" >Enter</button>
+        </div>
+        <div id="contentWrapper"><br>
+            <div class="content"><br>
+                <div class="response-data"></div>
+                <div class="hint"><br><br><br>
+                    <b>User Manual:</b><br>
+                    <b>1)</b>type "star separated" http method, requested url and data to send. (method * url * data)<br>
+                    <b>2)</b>type "star separated" "query", requested url and query infos.(query * url * {query info})<br>
+                    <b>Ex1:</b> get* https://api.github.com/users/whatever* {}<br>
+                    <b>Ex2:</b> query* https://api.github.com* {"order"="desc"}<br>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="javascript/Request.js"></script>
+</body>
+</html>

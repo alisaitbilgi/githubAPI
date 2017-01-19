@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background:lightcyan;
+}
+
+.app {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 1300px;
+}
+.top {
+    margin-top:30px;
+}
+.formContainer {
+    position:relative;
+    width: 100%;
+    height: 160px;
+    right: 1%;
+}
+#contentWrapper {
+    font-weight: 500;
+}
+#content {
+    display:inline-block;
+    float: top;
+    position: relative;
+    width: 60%;
+    height: 70%;
+    top:20px;
+    text-align: center;
+}
+#form {
+    position: relative;
+    width: 67%;
+    height: 80%;
+    margin: 0 auto;
+    top:35%;
+    display: inline-block;
+}
+
+.wrapper {
+    display:inline-block;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.lists {
+    position: relative;
+    width: 83%;
+    float: left;
+    height: 90px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.check {
+    text-align: center;
+    position: relative;
+    float: right;
+    width: 5%;
+    right: 10%;
+    height: 90px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#input {
+    display: inline-block;
+    width: 30%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#button {
+    position: relative;
+    outline: none;
+    background-color: #E8E8E8;
+    width: 110px;
+    height: 35px;
+    top: 2px;
+    margin-left: 5px;
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    background-image:
+            -webkit-gradient(
+                    linear,
+                    left bottom,
+                    left top,
+                    color-stop(10%, rgba(255, 255, 255, 0)),
+                    color-stop(10%, rgba(255, 255, 255, 0.3)),
+                    color-stop(10%, rgba(255, 255, 255, 0.2))),
+                /* dark outside gradient */
+            -webkit-gradient(
+                    linear,
+                    left top,
+                    right top,
+                    color-stop(0%, rgba(210, 210, 210, 0.3)),
+                    color-stop(2%, rgba(210, 210, 210, 0)),
+                    color-stop(8%, rgba(210, 210, 210, 0)),
+                    color-stop(10%, rgba(210, 210, 210, 0.3))),
+            gradient(
+                    linear,
+                    left top,
+                    right top,
+                    color-stop(1%, rgba(255, 255, 255, 0)),
+                    color-stop(1%, rgba(255, 255, 255, 0.5)),
+                    color-stop(1%, rgba(255, 255, 255, 0.5)),
+                    color-stop(1%, rgba(255, 255, 255, 0))),
+            gradient(
+                    linear,
+                    0% 100%,
+                    100% 0%,
+                    color-stop(0%, rgba(255, 255, 255, 0)),
+                    color-stop(40%, rgba(255, 255, 255, 0)),
+                    color-stop(40%, #D2D2D1),
+                    color-stop(60%, #D2D2D1),
+                    color-stop(60%, rgba(255, 255, 255, 0)),
+                    color-stop(100%, rgba(255, 255, 255, 0)));
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    color: #3A474D;
+    font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
+    font-weight: 600;
+    font-size: 22px;
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+}
+.button:hover {
+    color: #AEBF3B;
+    text-shadow: 0px -1px #97A63A;
+    cursor: pointer;
+}
+.button:active{
+    -webkit-transform: translate(0, 5px); /* depth of button press */
+}
